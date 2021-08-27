@@ -29,4 +29,4 @@ async def server(ctx):
     embed.add_field(name = f"Информация о каналах **{ctx.guild.name}**: ", value = f"Категорий: **{len(guild.channels)}** \n<Каналов: **{len(guild.channels)}** \nТекстовых: **{len(guild.text_channels)}** \nГолосовых: **{len(guild.voice_channels)}**")
     await ctx.send(embed=embed)
     
-    bot.run('ODcxMDI4NzQxMzM2MzU0ODY2.YQVWug.8ACT66bGcma5MyKN8AbklxSkjAc')
+    bot.run('ваш токен')
